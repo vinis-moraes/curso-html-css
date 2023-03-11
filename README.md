@@ -20,6 +20,6 @@ Essas cores podem ser classificadas como primárias, secundárias ou terciárias
 ![alt](https://static.todamateria.com.br/upload/56/df/56df13eb0fa92-cores-terciarias.jpg?auto_optimize=low)
 
 Cores primárias:
-*Amarelo
-*Vermelho
-*Azul
+* Amarelo
+* Vermelho
+* Azul
