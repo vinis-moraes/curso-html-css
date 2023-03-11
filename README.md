@@ -19,4 +19,4 @@
 * Capítulo 13
    * Aula 1
    * Aula 2
-   * Aula 3
+   * [Aula 3](https://github.com/vinis-moraes/curso-html-css/blob/main/C13A03.md)
