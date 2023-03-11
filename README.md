@@ -17,3 +17,6 @@
 * Capítulo 12
 ### Módulo 2
 * Capítulo 13
+*   Aula 1
+*   Aula 2
+*   Aula 3
