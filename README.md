@@ -107,3 +107,19 @@ A ideia é semelhante à anterior, mas em vez de pular três cores nós pularemo
 * Azul-esverdeado
 
 Perceba que a forma montada pela união das cores escolhidas forma uma cruz, que pode ser montada a partir de qualquer cor de referência.
+
+#### Cores tetrádicas
+
+Você escolhe duas cores de referência e utiliza também as cores complementares delas. Veja o exemplo:
+
+* Verde
+* Vermelho
+* Laranja
+* Azul
+
+Perceba que a forma montada pela união das cores escolhidas forma um retângulo.
+
+#### Monocromia
+
+Você escolhe uma cor e modifica duas características: a saturação e a luminosidade.
+Com essas modificações você pode montar uma tabela conhecida como degradê.
