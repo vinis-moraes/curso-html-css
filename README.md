@@ -47,8 +47,17 @@ As cores localizadas no hemisfério direito são as chamadas cores quentes, enqu
 
 #### Cores complementares
 
-São as cores que mais contrastam entre si, cores imediatamente opostas. Veja que, por exemplo, o verde é a cor oposta ao vermelho.(Sempre consulte as cores no círculo cromático simplificado)
+São as cores que mais contrastam entre si, cores imediatamente opostas. Veja que, por exemplo, o verde é a cor oposta ao vermelho(Sempre consulte as cores no círculo cromático simplificado ou no círculo de classificação de cores).
 
 #### Cores análogas
 
 São as cores que não possuem grande contraste entre si, as cores adjacentes. Como exemplo, podemos citar o amarelo, que tem como suas cores análogas o amarelo-alaranjado e o amarelo-esverdeado.
+
+#### Cores análogas e uma complementar
+
+Nada mais é do que a união dos ultimos dois conceitos. um exemplo de cores análogas com uma complementar é uma paleta de cores composta de:
+
+* Amarelo
+* Amarelo-alaranjado
+* Amarelo-esverdeado
+* Violeta
