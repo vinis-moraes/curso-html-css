@@ -44,3 +44,11 @@ Também podemos dividir a temperatura das cores:
 ![alt](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Warm_and_cool_colors.png/640px-Warm_and_cool_colors.png)
 
 As cores localizadas no hemisfério direito são as chamadas cores quentes, enquanto as localizadas no hemisfério esquerdo são as chamadas cores frias.
+
+#### Cores complementares
+
+São as cores que mais contrastam entre si, cores imediatamente opostas. Veja que, por exemplo, o verde é a cor oposta ao vermelho.(Sempre consulte as cores no círculo cromático simplificado)
+
+#### Cores análogas
+
+São as cores que não possuem grande contraste entre si, as cores adjacentes. Como exemplo, podemos citar o amarelo, que tem como suas cores análogas o amarelo-alaranjado e o amarelo-esverdeado.
