@@ -36,3 +36,9 @@ Cores terciárias:
 * Amarelo-alaranjado
 * Azul-arroxeado
 * Azul-esverdeado
+
+#### Temperatura das cores
+
+Também podemos dividir a temperatura das cores: 
+
+![alt](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Warm_and_cool_colors.png/640px-Warm_and_cool_colors.png)
