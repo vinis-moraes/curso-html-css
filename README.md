@@ -71,3 +71,26 @@ As cores análogas relacionadas são cores próximas entre si, mas que possuem c
 * Vermelho-alaranjado
 
 Perceba que o laranja foi pulado, conforme a regra antes descrita.
+Também podemos formar uma paleta com as mesmas cores análogas ao olhar para o outro lado ao criar a paleta. Veja o exemplo:
+
+* Amarelo
+* Amarelo-alaranjado
+* Verde
+
+#### Cores intercaladas
+
+São semelhantes as anteriores, porém com mais contraste. Você escolhe uma cor de referência, pula uma do lado e escolhe a cor seguinte, como no exemplo:
+
+* Amarelo
+* Laranja
+* Vermelho
+
+Perceba que eu pulei o amarelo-alaranjado e o vermelho-alaranjado, conforme descrito anteriormente.
+
+#### Cores triádicas
+
+São cores com bastante contraste. Para montar uma paleta desse tipo, você escolhe a cor de referência, pula três cores e escolhe a seguinte, como no exemplo:
+
+* Amarelo
+* Vermelho
+* Azul
