@@ -61,3 +61,13 @@ Nada mais é do que a união dos ultimos dois conceitos. um exemplo de cores an�
 * Amarelo-alaranjado
 * Amarelo-esverdeado
 * Violeta
+
+#### Cores análogas relacionadas
+
+As cores análogas relacionadas são cores próximas entre si, mas que possuem contraste. Para criar uma paleta de cores análogas relacionadas, você escolhe duas cores análogas e escolhe uma outra cor próxima, mas que está a uma cor de distância em um dos lados. Um exemplo de paleta de cores análogas relacionadas é:
+
+* Amarelo
+* Amarelo-alaranjado
+* Vermelho-alaranjado
+
+Perceba que o laranja foi pulado, conforme a regra antes descrita.
