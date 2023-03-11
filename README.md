@@ -12,3 +12,7 @@
 ![Círculo cromático gradiente](https://upload.wikimedia.org/wikipedia/commons/7/71/Gradient_color_wheel.png)
 ##### Círculo cromático simplificado
 ![Círculo cromático simplificado](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Circulo_cromatico.svg/640px-Circulo_cromatico.svg.png)
+
+Essas cores podem ser classificadas como primárias, secundárias ou terciárias:
+
+![alt](https://cdn.colab55.com/images/1584394201/u/circulo-3.jpg)
