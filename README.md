@@ -94,3 +94,5 @@ São cores com bastante contraste. Para montar uma paleta desse tipo, você esco
 * Amarelo
 * Vermelho
 * Azul
+
+Perceba que a forma montada pela união das cores escolhidas forma um triângulo equilátero e, assim como todos os outros métodos, pode ser usado com qualquer cor de referência.
