@@ -96,3 +96,14 @@ São cores com bastante contraste. Para montar uma paleta desse tipo, você esco
 * Azul
 
 Perceba que a forma montada pela união das cores escolhidas forma um triângulo equilátero e, assim como todos os outros métodos, pode ser usado com qualquer cor de referência.
+
+#### Cores em quadrado
+
+A ideia é semelhante à anterior, mas em vez de pular três cores nós pularemos apenas duas para formar essa paleta:
+
+* Amarelo
+* Vermelho-alaranjado
+* Violeta
+* Azul-esverdeado
+
+Perceba que a forma montada pela união das cores escolhidas forma uma cruz, que pode ser montada a partir de qualquer cor de referência.
