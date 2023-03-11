@@ -42,3 +42,5 @@ Cores terciárias:
 Também podemos dividir a temperatura das cores: 
 
 ![alt](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Warm_and_cool_colors.png/640px-Warm_and_cool_colors.png)
+
+As cores localizadas no hemisfério direito são as chamadas cores quentes, enquanto as localizadas no hemisfério esquerdo são as chamadas cores frias.
