@@ -23,3 +23,16 @@ Cores primárias:
 * Amarelo
 * Vermelho
 * Azul
+
+Cores secundárias:
+* Laranja
+* Violeta
+* Verde
+
+Cores terciárias:
+* Vermelho-arroxeado
+* Vermelho-alaranjado
+* Amarelo-esverdeado
+* Amarelo-alaranjado
+* Azul-arroxeado
+* Azul-esverdeado
