@@ -31,3 +31,8 @@ h2{
     color: #025939;
     text-align: center;
 }
+
+#principal{
+    font-size: 2.5em;
+    text-decoration: underline;
+}
