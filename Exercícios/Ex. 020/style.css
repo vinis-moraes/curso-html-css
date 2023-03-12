@@ -53,6 +53,12 @@ div{
     align-items: center;
     margin: 2px;
 }
-div#{
-
+.d1{
+    background-color: #05FF50;  
+}
+.d2{
+    background-color: #ffcd94;
+}
+.d3{
+    background-color: #e685fc;
 }
