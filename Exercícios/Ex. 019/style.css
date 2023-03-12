@@ -36,3 +36,12 @@ h2{
     font-size: 2.5em;
     text-decoration: underline;
 }
+.basico{
+    color: #025939;
+}
+.intermediario{
+    color: #FABF2F;
+}
+.avancado{
+    color: #952AAD;
+}
