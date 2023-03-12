@@ -16,7 +16,7 @@ main{
     margin: auto;
 }
 p{
-    text-align: justify;
+    text-align: center;
     font-weight: 300;
     text-indent: 5%;
 }
@@ -46,5 +46,11 @@ h2{
     color: #952aadbd;
 }
 div{
+    display: inline-block;
     background-color: bisque;
+    height: 50%;
+    width: 30%;
+    vertical-align: middle;
+    align-items: center;
+    margin: 2px;
 }
