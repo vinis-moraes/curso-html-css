@@ -21,9 +21,9 @@ p{
     text-indent: 5%;
 }
 h1{
-    color: #012340;
+    color: #058AFF;
     text-align: center;
-    text-shadow: 1px 1px 0px #011629;
+    text-shadow: 1px 1px 0px #058AFF;
     font-weight: 600;
     font-size: 2.2em;
 }
@@ -37,11 +37,11 @@ h2{
     text-decoration: underline;
 }
 .basico{
-    color: #025939;
+    color: #025939be;
 }
 .intermediario{
-    color: #FABF2F;
+    color: #fac02fbb;
 }
 .avancado{
-    color: #952AAD;
+    color: #952aadbd;
 }
