@@ -5,16 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: dimgray;
+            font-family: sans-serif;
+        }
+        header{
+            width: 60%;
+            margin: auto;
+            text-align: center;
+            background-color:antiquewhite;
+        }
+        main{
+            margin: 15px;
+            background-color: bisque;
+            padding: 2%;
+            border-radius: 10%;
+        }
+        footer{
+
+        background-color: lightgrey;
+        padding: 3%;
+        text-align: center;
+        }
+        article{
+            background-color: azure;
+        }
+        article > aside{
+            background-color: beige;
+            text-align: center;
+            font-weight: bold;
+        }
+        nav{
+            padding: 2%;
+            background-color: cornflowerblue;
+            text-align: center;
+        }
+        nav > a{
+            color: black;
+            text-decoration: none;
+            margin: 2%;
+        }
+    </style>
 </head>
 <body>
     <header>
-
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
     </header>
     <main>
+        <section id="assuntos">
+            <nav>
+                <a href="#">Esportes</a>
+                <a href="#">Política</a>
+                <a href="#">Tecnologia</a>
+            </nav>
+        <section id="noticias">
+           <article>
+            <h2>Notícia</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa fuga repellendus totam provident porro cupiditate unde distinctio illo id aliquam eaque sapiente harum soluta obcaecati, cumque dolor adipisci aut magni.</p>
+            <aside>
+                <p>Artigo escrito por mim</p>
+            </aside>
+           </article> 
+           <article>
 
+           </article>
+        </section>
     </main>
     <footer>
-        
+        <p>Desenvolvido por <a href="https://github.com/vinis-moraes">Vini Moraes</a></p>
     </footer>
 </body>
 </html>
