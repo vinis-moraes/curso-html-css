@@ -9,12 +9,13 @@
         h1{
             padding: 15px;
             background-color: aqua;
-            border: 10px;
-            margin: 5px;
-            margin-block: ;
-            border-color: purple;
-            border-style: solid;
+            border: 10px solid purple;
             color: black;
+            margin: auto;
+            width: fit-content;
+            outline: 10px;
+            outline-style: solid;
+            outline-color: red;
         }
         body{
             color: chocolate;
@@ -28,11 +29,14 @@
         #border{
             color: purple;
         }
+        #outline{
+            color: red;
+        }
     </style>
 </head>
 <body>
     <h1>Caixa box-sizing</h1>
-    <p>Nesse exemplo, o conteúdo é <span id="content">preto</span>, o padding é <span id="padding">áqua</span>, o border é <span id="border">roxo</span>, a margin é <span>vermelha</span>.</p>
+    <p>Nesse exemplo, o conteúdo é <span id="content">preto</span>, o padding é <span id="padding">áqua</span>, o border é <span id="border">roxo</span> e o outline é <span id="outline">vermelho</span>.</p>
 
     <p>Esse é um texto muito legal, com uma <a href="#">caixa inline-sizing</a> nele.</p>
 </body>
