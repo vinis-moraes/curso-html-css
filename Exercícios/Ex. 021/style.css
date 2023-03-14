@@ -56,21 +56,21 @@ div{
 }
 .d1{
     background-color: #05FF50;  
-    padding: 2%;
+    padding: 2.1%;
 }
 .d2{
     background-color: #ffcd94;
-    padding: 2%;
+    padding: 2.1%;
 }
 .d3{
     background-color: #e685fc;
-    padding: 2%;
+    padding: 2.1%;
 }
 div:hover{
     height: 60%;
     width: 28%;
     font-size: 1.2em;
-    padding: 0%;
+    padding: 1%;
 }
 a{
     text-decoration: none;
