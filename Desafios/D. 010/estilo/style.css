@@ -16,6 +16,10 @@
     --fonte1: 'Bebas Neue', cursive;
     --fonte2: 'Android', cursive;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     background-color: var(--cor0);
     font-family: var(--fonte0);
