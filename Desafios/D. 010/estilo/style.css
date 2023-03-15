@@ -1,5 +1,20 @@
 @charset "UTF-8";
 
+
+:root{
+    --cor0: #C5EBD6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063D1E;
+}
 body{
-    background-color: #C5EBD6;
+    background-color: var(--cor0);
+}
+header > h1{
+    color: var(--cor5);
+}
+main > h1{
+    color: var(--cor5);
 }
