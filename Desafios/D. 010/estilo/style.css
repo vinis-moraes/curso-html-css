@@ -24,6 +24,9 @@ body{
     background-color: var(--cor0);
     font-family: var(--fonte0);
 }
+a.externo{
+    content: '\1F517';
+}
 header{
     background-image: linear-gradient(to bottom, var(
     --cor3), var(--cor5));
