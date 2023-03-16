@@ -118,7 +118,13 @@ main img.pequena{
     margin: auto;
 }
 main aside{
-
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+}
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
 }
 footer{
     background-color: var(--cor5);
