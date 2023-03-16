@@ -51,3 +51,8 @@
 * [Acesse aqui o exercício 003](https://vinis-moraes.github.io/curso-html-css/Exercícios/Ex.%20003)
 * [Acesse aqui o exercício 004](https://vinis-moraes.github.io/curso-html-css/Exercícios/Ex.%20004)
 * [Acesse aqui o exercício 006](https://vinis-moraes.github.io/curso-html-css/Exercícios/Ex.%20006)
+* [Acesse aqui o exercício 007](https://vinis-moraes.github.io/curso-html-css/Exercícios/Ex.%20007)
+* [Acesse aqui o exercício 008](https://vinis-moraes.github.io/curso-html-css/Exercícios/Ex.%20008)
+* [Acesse aqui o exercício 008b](https://vinis-moraes.github.io/curso-html-css/Exercícios/Ex.%20008b)
+* [Acesse aqui o exercício 009](https://vinis-moraes.github.io/curso-html-css/Exercícios/Ex.%20009)
+* [Acesse aqui o exercício 010](https://vinis-moraes.github.io/curso-html-css/Exercícios/Ex.%20010)
