@@ -37,3 +37,7 @@
    * Aula 10
 * Capítulo 15
    * [Aula 1](https://github.com/vinis-moraes/curso-html-css/blob/main/C15A01.md)
+* Capítulo 16
+* Capítulo 17
+* Capítulo 18
+* Capítulo 19
