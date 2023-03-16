@@ -24,7 +24,7 @@ body{
     background-color: var(--cor0);
     font-family: var(--fonte0);
 }
-a.externo{
+a.externo::after{
     content: '\1F517';
 }
 header{
