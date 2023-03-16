@@ -46,4 +46,4 @@
 
 ## Exercícios
 
-* [Acesse aqui o exercício 001](https://vinis-moraes.github.io/Exercícios/Ex.%20001)
+* [Acesse aqui o exercício 001](https://vinis-moraes.github.io/curso-html-css/Exercícios/Ex.%20001)
