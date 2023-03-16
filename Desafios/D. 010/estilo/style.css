@@ -25,15 +25,28 @@ body{
     font-family: var(--fonte0);
 }
 header{
-    background-color: var(--cor4);
+    background-image: linear-gradient(to bottom, var(
+    --cor3), var(--cor5));
+    min-height: 150px;
+    text-align: center;
 }
 header > h1{
     color: var(--cor5);
     color: white;
     font-family: var(--fonte1);
+    padding-top: 30px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.363);
 }
 header > p{
     color: white;
+    font-family: var(--fonte0);
+    font-size: 1.2em;
+    max-width: 500px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.363);
 }
 nav{
     background-color: var(--cor5);
