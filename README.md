@@ -41,3 +41,9 @@
 * Capítulo 17
 * Capítulo 18
 * Capítulo 19
+
+***
+
+## Exercícios
+
+* [Acesse aqui o exercício 001](https://vinis-moraes.github.io/Exercícios/Ex.%20001)
