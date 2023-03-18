@@ -4,9 +4,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        tr{
+            height: 75px;
+        }
+
+        th{
+            background-color: #EAECF0;
+            padding: 10px;
+        }
+
+        td{
+            text-align: center;
+            padding: 10px;
+        }
+
+        .right{
+            text-align: end;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Uso de tabelas grandes</h1>
+    <h1>Lista de unidades federativas do Brasil por população</h1>
+    <!--Anatomia para tabelas grandes
+    Table
+        tHead
+            tr, td, th
+        tBody
+            tr, td, th
+        tFoot
+            tr, td, th
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th>Posição</th>
+                <th>Unidade federativa</th>
+                <th>População (Censo de 2010)</th>
+                <th>População (Prévia 2022)</th>
+                <th>Mudança</th>
+                <th>% da pop. total</th>
+                <th>País comparável (habitantes)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>São Paulo</td>
+                <td>41 262 199</td>
+                <td class="right">46 024 937</td>
+                <td>+11.5%</td>
+                <td>22,2%</td>
+                <td>Espanha (46 754 778)</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>19 597 330</td>
+                <td class="right">20 732 660</td>
+                <td>+5.8%</td>
+                <td>10,0%</td>
+                <td>Burquina Fasso (20 903 273)</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td>15 989 929</td>
+                <td class="right">16 615 526</td>
+                <td>+3.9%</td>
+                <td>8,0%</td>
+                <td>Camboja (16 718 965)</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de habitantes</th>
+                <td> </td>
+                <td>76 849 458</td>
+                <td>83 373 123</td>
+                <td> </td>
+                <td> </td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>
