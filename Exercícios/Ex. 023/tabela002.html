@@ -2,116 +2,199 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
     <style>
-        body{
+        body {
             font-family: Arial, Helvetica, sans-serif;
+
         }
 
-        table{
+        table {
+            width: 500px;
             border-collapse: collapse;
-            height: 100px;
+            position: relative;
         }
 
-        tr{
-            height: 60px;
-        }
-
-        th{
-            background-color: #EAECF0;
+        td, th {
+            border: 1px solid black;
             padding: 10px;
         }
 
-        td{
-            text-align: center;
-            padding: 10px;
-            border: solid 1px black;
-
-        }
-
-        .right{
-            text-align: end;
-        }
-
-        caption{
+        caption {
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
-            background-color: #EAECF0;
+            background-color: lightgray;
         }
 
-        tbody tr:nth-child(odd){
+        thead, tfoot {
+            background-color: #383838;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        tbody > tr:nth-child(odd) { /* 2n-1 */
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even) { /* 2n */
             background-color: lightgray;
+        }
+
+        td.num {
+            text-align: right;
         }
     </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
-    <!--Anatomia para tabelas grandes
-    Table
-        Caption
-        tHead
-            tr, td, th
-        tBody
-            tr, td, th
-        tFoot
-            tr, td, th
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
     -->
     <table>
-        <caption>População de algumas unidades federativas</caption>
+        <caption>População das Unidades Federativas</caption> 
         <thead>
             <tr>
-                <th scope="col">Posição</th>
-                <th scope="col">Unidade federativa</th>
-                <th scope="col">População (Censo de 2010)</th>
-                <th scope="col">População (Prévia 2022)</th>
-                <th scope="col">Mudança</th>
-                <th scope="col">% da pop. total</th>
-                <th scope="col">País comparável (habitantes)</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>São Paulo</td>
-                <td class="right">41 262 199</td>
-                <td class="right">46 024 937</td>
-                <td>+11.5%</td>
-                <td>22,2%</td>
-                <td>Espanha (46 754 778)</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Minas Gerais</td>
-                <td class="right">19 597 330</td>
-                <td class="right">20 732 660</td>
-                <td>+5.8%</td>
-                <td>10,0%</td>
-                <td>Burquina Fasso (20 903 273)</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Rio de Janeiro</td>
-                <td class="right">15 989 929</td>
-                <td class="right">16 615 526</td>
-                <td>+3.9%</td>
-                <td>8,0%</td>
-                <td>Camboja (16 718 965)</td>
-            </tr>
-        </tbody>
         <tfoot>
             <tr>
-                <th scope="row">Total de habitantes</th>
-                <td> </td>
-                <td class="right">76 849 458</td>
-                <td class="right">83 373 123</td>
-                <td> </td>
-                <td> </td>
-                <td></td>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>210.147.125</strong></td>
             </tr>
         </tfoot>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.873.064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.433.957</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9.557.071</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9.132.078</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8.602.865</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">7.164.788</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">7.075.181</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">7.018.354</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">4.144.597</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="num">4.018.650</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">4.018.127</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">3.506.853</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="num">3.484.466</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">3.337.357</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td class="num">3.273.227</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td class="num">3.015.268</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="num">2.778.986</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="num">2.298.696</td>
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+                <td class="num">1.777.225</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="num">1.572.866</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="num">881.935</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td class="num">845.731</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="num">605.761</td>
+            </tr>
+        </tbody>      
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nam voluptatem esse eveniet. Aspernatur ipsa asperiores itaque, recusandae quibusdam magnam neque laborum ratione laboriosam architecto corporis, voluptas modi commodi reiciendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates ducimus facere sunt laboriosam? Temporibus, voluptas repellat voluptatem illum optio obcaecati cumque excepturi, dolorem enim a cum doloribus suscipit, consequuntur accusantium?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, tenetur. Quibusdam ea, beatae voluptatem error obcaecati dolores maxime eos vero distinctio quaerat alias. Expedita, enim possimus non iusto ducimus ut. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam in repudiandae veniam sed rerum aliquam tempore ipsum ullam magni aliquid magnam aspernatur sint eveniet voluptate ad, maiores eaque officiis quaerat!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nam voluptatem esse eveniet. Aspernatur ipsa asperiores itaque, recusandae quibusdam magnam neque laborum ratione laboriosam architecto corporis, voluptas modi commodi reiciendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates ducimus facere sunt laboriosam? Temporibus, voluptas repellat voluptatem illum optio obcaecati cumque excepturi, dolorem enim a cum doloribus suscipit, consequuntur accusantium?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, tenetur. Quibusdam ea, beatae voluptatem error obcaecati dolores maxime eos vero distinctio quaerat alias. Expedita, enim possimus non iusto ducimus ut. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam in repudiandae veniam sed rerum aliquam tempore ipsum ullam magni aliquid magnam aspernatur sint eveniet voluptate ad, maiores eaque officiis quaerat!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nam voluptatem esse eveniet. Aspernatur ipsa asperiores itaque, recusandae quibusdam magnam neque laborum ratione laboriosam architecto corporis, voluptas modi commodi reiciendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates ducimus facere sunt laboriosam? Temporibus, voluptas repellat voluptatem illum optio obcaecati cumque excepturi, dolorem enim a cum doloribus suscipit, consequuntur accusantium?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, tenetur. Quibusdam ea, beatae voluptatem error obcaecati dolores maxime eos vero distinctio quaerat alias. Expedita, enim possimus non iusto ducimus ut. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam in repudiandae veniam sed rerum aliquam tempore ipsum ullam magni aliquid magnam aspernatur sint eveniet voluptate ad, maiores eaque officiis quaerat!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nam voluptatem esse eveniet. Aspernatur ipsa asperiores itaque, recusandae quibusdam magnam neque laborum ratione laboriosam architecto corporis, voluptas modi commodi reiciendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates ducimus facere sunt laboriosam? Temporibus, voluptas repellat voluptatem illum optio obcaecati cumque excepturi, dolorem enim a cum doloribus suscipit, consequuntur accusantium?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, tenetur. Quibusdam ea, beatae voluptatem error obcaecati dolores maxime eos vero distinctio quaerat alias. Expedita, enim possimus non iusto ducimus ut. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam in repudiandae veniam sed rerum aliquam tempore ipsum ullam magni aliquid magnam aspernatur sint eveniet voluptate ad, maiores eaque officiis quaerat!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nam voluptatem esse eveniet. Aspernatur ipsa asperiores itaque, recusandae quibusdam magnam neque laborum ratione laboriosam architecto corporis, voluptas modi commodi reiciendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates ducimus facere sunt laboriosam? Temporibus, voluptas repellat voluptatem illum optio obcaecati cumque excepturi, dolorem enim a cum doloribus suscipit, consequuntur accusantium?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, tenetur. Quibusdam ea, beatae voluptatem error obcaecati dolores maxime eos vero distinctio quaerat alias. Expedita, enim possimus non iusto ducimus ut. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam in repudiandae veniam sed rerum aliquam tempore ipsum ullam magni aliquid magnam aspernatur sint eveniet voluptate ad, maiores eaque officiis quaerat!</p>
+    
 </body>
 </html>
