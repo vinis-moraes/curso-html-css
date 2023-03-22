@@ -13,6 +13,13 @@
 
     main{
         border: 2px solid black;
+        width: 95vw;
+    }
+
+    main:after{
+        content: 'Essa impressão foi feita através do site vinis-moraes.github.io';
+        text-decoration: overline;
+        font-size: 0.8em;
     }
 
     img#phone{ display: none;
